@@ -124,15 +124,16 @@
     const noBtn = document.getElementById("noBtn");
     const heartsContainer = document.getElementById("hearts");
 
-    yesBtn.addEventListener("click", () => {
-      document.querySelector(".card").innerHTML = `
-        <h1>Yay! 💖</h1>
-        <p>You just made me the happiest person ever.</p>
-        <h2>I love you, Yasmine 🌹</h2>
-        <p>Happy Valentine’s Day 💘</p>
-      `;
-      startHearts();
-    });
+   yesBtn.addEventListener("click", () => {
+  document.querySelector(".card").innerHTML = `
+    <h1>I love you</h1>
+    <h2>I love you so much Yasmine</h2>
+    <p>You’re a blessing in my life</p>
+    <p>See you soon</p>
+  `;
+  startHearts();
+});
+
 
     noBtn.addEventListener("mouseover", moveNoButton);
     noBtn.addEventListener("click", moveNoButton);
